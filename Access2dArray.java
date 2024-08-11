@@ -1,0 +1,15 @@
+//Access 2D array
+
+public class Access2dArray {
+    public static void main(String[] args){
+
+        int[][] arr={{10,30,10},{20,30,50}};
+
+        for (int i=0;i<2;i++){
+            for (int j=0;j<3;j++){
+                System.out.print(arr[i][j]+"   ");
+            }
+            System.out.println();
+        }
+    }
+}
